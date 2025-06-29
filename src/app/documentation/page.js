@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function DokumentasiPage() {
   return (
-    <div className="min-h-screen bg-white text-sky-900 py-20">
+    <div className="min-h-screen bg-white text-sky-900 pt-20">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-6">
           Selamat datang di Laman Dokumentasi Kementerian UMKM!
@@ -70,6 +70,69 @@ export default function DokumentasiPage() {
             style={{ display: 'block' }}
           >
             Info Tips
+          </a>
+        </div>
+      </div>
+      <div className="bg-white h-140 w-full flex items-center justify-center text-white">
+        <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center px-1 md:px-1">
+          <div>
+            <iframe
+              src="https://www.instagram.com/p/DFbzn4Fv-Z1/embed"
+              className="w-full h-128 rounded"
+              allow="encrypted-media"
+              title="Instagram"
+              frameBorder="0"
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              src="https://www.instagram.com/p/DLWu5xmyBG9/embed"
+              className="w-full h-128 rounded"
+              allow="encrypted-media"
+              title="Instagram"
+              frameBorder="0"
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              src="https://www.instagram.com/p/DKvnZKCJaIz/embed"
+              className="w-full h-128 rounded"
+              allow="encrypted-media"
+              title="Instagram"
+              frameBorder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <div className="text-center">
+        Yuk, <strong>kunjungi Instagram resmi @kementerianumkm!</strong>
+        <br />
+        <span>
+          Dapatkan{' '}
+          <strong>
+            informasi terkini, kebijakan penting, dan capaian program
+          </strong>{' '}
+          yang berdampak langsung bagi masyarakat.
+        </span>
+      </div>
+      <div className="w-full max-w-6xl mx-auto my-12">
+        <div className="w-full h-128 rounded shadow-lg overflow-hidden border border-gray-200">
+          <iframe
+            src="https://umkm.go.id/"
+            title="Preview Website Kementerian UMKM"
+            className="w-full h-full"
+            frameBorder="0"
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div className="items-center text-center m-12">
+          <a
+            href="https://wa.me/62811380280"
+            className="bg-sky-900 hover:bg-sky-800 text-white py-1 px-15 rounded inline-block"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Whatsapp Khusus Teks
           </a>
         </div>
       </div>
