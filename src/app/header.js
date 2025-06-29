@@ -41,7 +41,10 @@ function Header() {
           >
             Beranda
           </Link>
-          <Link href="/" className="text-white hover:text-gray-300">
+          <Link
+            href="/documentation"
+            className={`text-white hover:text-gray-300 ${pathname === '/documentation' ? 'font-bold' : ''}`}
+          >
             Dokumentasi
           </Link>
         </nav>
