@@ -22,6 +22,22 @@ function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Extract className for Image to avoid nested ternary
+  let imageClassName = '';
+  if (pathname !== '/' && !scrolled) {
+    imageClassName = 'invert';
+  }
+
+  // Extract text color for span to avoid nested ternary
+  let spanTextColor = '';
+  if (pathname === '/') {
+    spanTextColor = 'text-white';
+  } else if (scrolled) {
+    spanTextColor = 'text-white';
+  } else {
+    spanTextColor = 'text-sky-900';
+  }
+
   return (
     <header
       className={`fixed w-full top-0 left-0 z-50 transition-colors duration-300 ${
@@ -31,23 +47,42 @@ function Header() {
     >
       <div className="w-full px-6 flex justify-between items-center p-2">
         <div className="flex items-center space-x-2">
-          <Image src="/logo.png" alt="Logo" width={100} height={100} />
-          <span className="text-xl text-white">PTSP KUMKM</span>
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={100}
+            height={100}
+            className={imageClassName}
+          />
+          <span className={`text-xl ${spanTextColor}`}>PTSP KUMKM</span>
         </div>
-        <nav className="flex space-x-4">
-          <Link
-            href="/"
-            className={`text-white hover:text-gray-300 ${pathname === '/' ? 'font-bold' : ''}`}
-          >
-            Beranda
-          </Link>
-          <Link
-            href="/documentation"
-            className={`text-white hover:text-gray-300 ${pathname === '/documentation' ? 'font-bold' : ''}`}
-          >
-            Dokumentasi
-          </Link>
-        </nav>
+        {/* Extract link text color to avoid nested ternary */}
+        {(() => {
+          let linkTextColor = '';
+          if (pathname === '/') {
+            linkTextColor = 'text-white';
+          } else if (scrolled) {
+            linkTextColor = 'text-white';
+          } else {
+            linkTextColor = 'text-sky-900';
+          }
+          return (
+            <nav className="flex space-x-4">
+              <Link
+                href="/"
+                className={`${linkTextColor} hover:text-gray-500 ${pathname === '/' ? 'font-bold' : ''}`}
+              >
+                Beranda
+              </Link>
+              <Link
+                href="/documentation"
+                className={`${linkTextColor} hover:text-gray-500 ${pathname === '/documentation' ? 'font-bold' : ''}`}
+              >
+                Dokumentasi
+              </Link>
+            </nav>
+          );
+        })()}
       </div>
     </header>
   );
