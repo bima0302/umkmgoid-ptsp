@@ -3,9 +3,11 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 function Header() {
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,7 +35,10 @@ function Header() {
           <span className="text-xl text-white">PTSP KUMKM</span>
         </div>
         <nav className="flex space-x-4">
-          <Link href="/" className="text-white hover:text-gray-300">
+          <Link
+            href="/"
+            className={`text-white hover:text-gray-300 ${pathname === '/' ? 'font-bold' : ''}`}
+          >
             Beranda
           </Link>
           <Link href="/" className="text-white hover:text-gray-300">
