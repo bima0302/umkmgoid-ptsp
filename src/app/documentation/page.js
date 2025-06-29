@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function DokumentasiPage() {
   return (
-    <div className="min-h-screen bg-white text-sky-900 py-20 px-4">
+    <div className="min-h-screen bg-white text-sky-900 py-20">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-6">
           Selamat datang di Laman Dokumentasi Kementerian UMKM!
@@ -42,8 +42,36 @@ export default function DokumentasiPage() {
           </div>
         </div>
       </div>
-      <div className="bg-sky-900 h-32 w-full flex items-center justify-center text-white text-2xl font-semibold">
-        Hai, ada yang bisa kami bantu?
+      <div className="bg-sky-900 h-32 w-full flex items-center justify-center text-white">
+        <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center px-1 md:px-1">
+          <a
+            href="https://umkm.go.id/siaran-pers"
+            className="bg-white hover:bg-gray-300 text-sky-900 py-1 px-4 w-full text-center rounded inline-block transition-all duration-200"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: 'block' }}
+          >
+            Siaran Pers
+          </a>
+          <a
+            href="https://umkm.go.id/warta-umkm"
+            className="bg-white hover:bg-gray-300 text-sky-900 py-1 px-4 w-full text-center rounded inline-block transition-all duration-200"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: 'block' }}
+          >
+            Warta UMKM
+          </a>
+          <a
+            href="https://umkm.go.id/"
+            className="bg-white hover:bg-gray-300 text-sky-900 py-1 px-4 w-full text-center rounded inline-block transition-all duration-200"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: 'block' }}
+          >
+            Info Tips
+          </a>
+        </div>
       </div>
     </div>
   );
