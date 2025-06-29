@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="w-full">
       <div className="bg-sky-900 text-white py-12 px-4">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           <div>
             <h2 className="text-yellow-400 text-3xl font-bold mb-6">
               Permohonan Informasi dan Pengaduan
