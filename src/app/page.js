@@ -25,7 +25,7 @@ const cards = [
   {
     title: 'Survei Kepuasan Masyarakat',
     image: '/survei.png',
-    link: 'https://skm.kemenkopukm.go.id/',
+    link: 'https://kemenumkm.fillout.com/skm',
   },
   {
     title: 'Website Kementerian UMKM',
