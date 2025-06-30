@@ -5,12 +5,13 @@ function Footer() {
   return (
     <footer className="w-full">
       <div className="bg-sky-900 text-white py-12 px-4">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-start">
+          {/* Kolom 1 */}
           <div>
-            <h2 className="text-yellow-400 text-3xl font-bold mb-6">
+            <h2 className="text-yellow-400 text-2xl sm:text-3xl font-bold mb-6">
               Permohonan Informasi dan Pengaduan
             </h2>
-            <ol className="space-y-4">
+            <ol className="space-y-4 text-base sm:text-lg">
               <li>
                 Kami terbuka untuk Anda!
                 <br />
@@ -21,7 +22,7 @@ function Footer() {
                 </span>
                 <a
                   href="https://ppid.umkm.go.id/layanan-informasi/?p=UXZrM3NJdnlhanNqVlpQbnJqTGFWQT09&c=ZFZwMnRZd2Zhak1USnJXOEw3VVljdz09&n=UzdPZnE0bFBVdGFLdXdxVkFvOHQzQT09"
-                  className="bg-white hover:bg-gray-300 text-sky-900 py-1 w-full items-center text-center rounded inline-block mt-6"
+                  className="bg-white hover:bg-gray-300 text-sky-900 py-2 w-full items-center text-center rounded inline-block mt-6 transition-all duration-200"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -38,7 +39,6 @@ function Footer() {
                 <div className="text-yellow-300 font-semibold">
                   Apa program strategis Kementerian UMKM?
                 </div>
-
                 <span>
                   Lebih nyaman lewat telepon? kami siap dihubungi melalui:{' '}
                   <strong>106</strong>.
@@ -102,14 +102,15 @@ function Footer() {
             </ol>
           </div>
 
-          <div className="flex flex-col items-center md:items-start space-y-4">
-            <h2 className="text-white text-3xl font-bold">
+          {/* Kolom 2 */}
+          <div className="flex flex-col items-center md:items-start space-y-4 mt-8 md:mt-0">
+            <h2 className="text-white text-2xl sm:text-3xl font-bold">
               Pelayanan Terpadu Satu Pintu
             </h2>
             <h3 className="text-white text-lg font-semibold mb-4">
               Kementerian UMKM
             </h3>
-            <ol className="space-y-4">
+            <ol className="space-y-4 text-base sm:text-lg">
               <li>
                 Jam operasional:
                 <br />
@@ -127,7 +128,7 @@ function Footer() {
                     title="Lokasi Kementerian UMKM"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.025557377516!2d106.836333!3d-6.241833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTQnMzAuNiJTIDEwNsKwNTAnMTAuOCJF!5e0!3m2!1sid!2sid!4v1719830000000!5m2!1sid!2sid"
                     width="100%"
-                    height="250"
+                    height="200"
                     style={{ border: 0, borderRadius: '12px' }}
                     allowFullScreen=""
                     loading="lazy"
@@ -139,8 +140,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="bg-gray-100 border-t border-gray-300 py-6">
-        <div className="max-w-6xl mx-auto flex">
+      <div className="bg-gray-100 border-t border-gray-300 py-6 px-4">
+        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
           <div className="flex items-center space-x-2">
             <span
               className="text-md text-gray-700 italic"

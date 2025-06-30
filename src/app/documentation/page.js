@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function DokumentasiPage() {
   return (
     <div className="min-h-screen bg-white text-sky-900 pt-20">
