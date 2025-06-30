@@ -28,9 +28,13 @@ export default function ParallaxHeader() {
     >
       <div className="bg-black/25 min-h-[220px] sm:min-h-[320px] md:min-h-[344px] flex items-center justify-center">
         <div
-          className={`w-11/12 sm:w-3/4 md:w-1/2 text-center text-white text-2xl sm:text-4xl md:text-5xl font-semibold px-2 sm:px-4 ${koHo.variable}`}
+          className={`w-11/12 sm:w-3/4 text-center text-white text-2xl sm:text-4xl md:text-5xl font-semibold px-2 sm:px-4 ${koHo.variable}`}
         >
-          Selamat Datang di Pelayanan Terpadu Satu Pintu (PTSP) Kementerian UMKM
+          Selamat Datang
+          <br />
+          Di Pelayanan Terpadu Satu Pintu
+          <br />
+          Kementerian UMKM
         </div>
       </div>
     </div>
