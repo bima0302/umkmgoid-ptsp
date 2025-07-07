@@ -54,7 +54,9 @@ function Header() {
             height={100}
             className={imageClassName}
           />
-          <span className={`text-xl ${spanTextColor}`}>PTSP KUMKM</span>
+          <span className={`text-xl ${spanTextColor} hidden sm:inline`}>
+            PTSP KUMKM
+          </span>
         </div>
         {/* Extract link text color to avoid nested ternary */}
         {(() => {
