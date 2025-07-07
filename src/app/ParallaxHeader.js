@@ -18,15 +18,19 @@ export default function ParallaxHeader() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  const parallaxY = offset * 0.4;
+
   return (
-    <div
-      className="bg-[url('/header.jpg')] bg-cover bg-center bg-fixed"
-      style={{
-        backgroundPositionY: `${-offset * 0.4}px`,
-        transition: 'background-position 0.1s',
-      }}
-    >
-      <div className="bg-black/25 min-h-[220px] sm:min-h-[320px] md:min-h-[344px] flex items-center justify-center">
+    <div className="relative min-h-[220px] sm:min-h-[320px] md:min-h-[344px] overflow-hidden">
+      <div
+        className="absolute inset-0 bg-[url('/header.jpg')] bg-cover bg-bottom"
+        style={{
+          transform: `translateY(${parallaxY}px)`,
+          transition: 'transform 0.1s',
+          zIndex: 0,
+        }}
+      />
+      <div className="relative z-10 bg-black/25 w-full h-full flex items-center justify-center min-h-[220px] sm:min-h-[320px] md:min-h-[344px]">
         <div
           className={`w-11/12 sm:w-3/4 text-center text-white text-2xl sm:text-4xl md:text-5xl font-semibold px-2 sm:px-4 ${koHo.variable}`}
         >
