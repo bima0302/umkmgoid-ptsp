@@ -145,7 +145,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div>
+            <div className="mt-8 md:mt-0 flex flex-col items-center md:items-start text-center md:text-left">
               <h2 className="flex flex-col text-sky-900 text-2xl sm:text-3xl font-bold mb-6">
                 Untuk bantuan lebih cepat, silakan masuk ke akun Lapor Anda.
               </h2>
