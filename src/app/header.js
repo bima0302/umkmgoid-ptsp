@@ -108,7 +108,7 @@ function MobileNav({ menuOpen, setMenuOpen, pathname }) {
           Dokumentasi
         </Link>
       </nav>
-      <style jsx>{`
+      <style>{`
         @keyframes slide-in {
           from {
             transform: translateX(-100%);
