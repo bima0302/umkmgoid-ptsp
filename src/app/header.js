@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { FiSearch } from 'react-icons/fi';
 
 import PropTypes from 'prop-types';
 
@@ -170,6 +171,15 @@ function Header() {
     linkTextColor = 'text-sky-900';
   }
 
+  // Fungsi pencarian sederhana (bisa diganti sesuai kebutuhan)
+  // const handleSearchClick = () => {
+  //   const query = prompt('Cari apa?');
+  //   if (query) {
+  //     // Contoh: redirect ke halaman pencarian atau filter konten
+  //     window.location.href = `/search?q=${encodeURIComponent(query)}`;
+  //   }
+  // };
+
   return (
     <header
       className={`fixed w-full top-0 left-0 z-50 transition-colors duration-300 ${
@@ -196,7 +206,19 @@ function Header() {
             PTSP KUMKM
           </span>
         </div>
-        <DesktopNav linkTextColor={linkTextColor} pathname={pathname} />
+        <div className="flex items-center space-x-2">
+          <DesktopNav linkTextColor={linkTextColor} pathname={pathname} />
+          <button
+            className={`ml-2 transition inline-flex bg-transparent p-0 shadow-none
+    ${pathname === '/documentation' && !scrolled ? 'text-sky-900' : 'text-white hover:text-gray-300'}`}
+            aria-label="Cari"
+            type="button"
+            // onClick={handleSearchClick}
+          >
+            <FiSearch className="w-5 h-5" />{' '}
+            {/* Feather icon: lebih outline/tidak berisi */}
+          </button>
+        </div>
         <MobileNav
           menuOpen={menuOpen}
           setMenuOpen={setMenuOpen}
