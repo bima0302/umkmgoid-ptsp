@@ -53,14 +53,14 @@ export default function Home() {
                 href={card.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white shadow rounded p-4 flex flex-col items-center transition hover:scale-105"
+                className="p-4 flex flex-col items-center transition hover:scale-105"
               >
                 <Image
                   src={card.image}
                   alt={card.title}
                   width={300}
-                  height={150}
-                  className="object-contain w-full h-32 sm:h-36"
+                  height={180}
+                  className="object-contain w-full h-40 sm:h-48 bg-white"
                 />
                 <h3 className="mt-4 font-semibold text-lg sm:text-2xl text-blue-950 text-center">
                   {card.title}
