@@ -39,11 +39,11 @@ export default function DokumentasiPage() {
           </div>
         </div>
       </div>
-      <div className="bg-sky-900 min-h-32 w-full flex items-center justify-center text-white px-0 sm:px-2 py-6 sm:py-0">
+      <div className="bg-cyan-700 min-h-32 w-full flex items-center justify-center text-white px-0 sm:px-2 py-6 sm:py-0">
         <div className="w-full max-w-6xl mx-auto grid grid-cols-1 gap-3 sm:gap-4 md:grid-cols-3 md:gap-8 items-center px-2">
           <a
             href="https://umkm.go.id/siaran-pers"
-            className="bg-sky-800 hover:bg-sky-700 text-white py-3 px-4 w-full text-center rounded inline-block transition-all duration-200 text-base sm:text-lg font-semibold shadow"
+            className="bg-sky-900 hover:bg-sky-700 text-white py-3 px-4 w-full text-center rounded inline-block transition-all duration-200 text-base sm:text-lg font-semibold shadow"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -51,7 +51,7 @@ export default function DokumentasiPage() {
           </a>
           <a
             href="https://umkm.go.id/warta-umkm"
-            className="bg-sky-800 hover:bg-sky-700 text-white py-3 px-4 w-full text-center rounded inline-block transition-all duration-200 text-base sm:text-lg font-semibold shadow"
+            className="bg-sky-900 hover:bg-sky-700 text-white py-3 px-4 w-full text-center rounded inline-block transition-all duration-200 text-base sm:text-lg font-semibold shadow"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -59,7 +59,7 @@ export default function DokumentasiPage() {
           </a>
           <a
             href="https://umkm.go.id/"
-            className="bg-sky-800 hover:bg-sky-700 text-white py-3 px-4 w-full text-center rounded inline-block transition-all duration-200 text-base sm:text-lg font-semibold shadow"
+            className="bg-sky-900 hover:bg-sky-700 text-white py-3 px-4 w-full text-center rounded inline-block transition-all duration-200 text-base sm:text-lg font-semibold shadow"
             target="_blank"
             rel="noopener noreferrer"
           >
