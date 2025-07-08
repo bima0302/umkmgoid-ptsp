@@ -158,7 +158,7 @@ function Header() {
   } else if (scrolled) {
     spanTextColor = 'text-white';
   } else {
-    spanTextColor = 'text-sky-900';
+    spanTextColor = 'text-zinc-900';
   }
 
   // Extract link text color to avoid nested ternary
@@ -168,7 +168,7 @@ function Header() {
   } else if (scrolled) {
     linkTextColor = 'text-white';
   } else {
-    linkTextColor = 'text-sky-900';
+    linkTextColor = 'text-zinc-900';
   }
 
   // Fungsi pencarian sederhana (bisa diganti sesuai kebutuhan)
@@ -183,7 +183,7 @@ function Header() {
   return (
     <header
       className={`fixed w-full top-0 left-0 z-50 transition-colors duration-300 ${
-        scrolled ? 'bg-black bg-opacity-90' : 'bg-transparent'
+        scrolled ? 'bg-zinc-900 bg-opacity-90' : 'bg-transparent'
       }`}
       id="site-header"
     >
@@ -210,7 +210,7 @@ function Header() {
           <DesktopNav linkTextColor={linkTextColor} pathname={pathname} />
           <button
             className={`ml-2 transition inline-flex bg-transparent p-0 shadow-none
-    ${pathname === '/documentation' && !scrolled ? 'text-sky-900' : 'text-white hover:text-gray-300'}`}
+    ${pathname === '/documentation' && !scrolled ? 'text-zinc-900' : 'text-white hover:text-gray-300'}`}
             aria-label="Cari"
             type="button"
             // onClick={handleSearchClick}
