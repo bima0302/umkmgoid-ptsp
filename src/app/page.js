@@ -73,7 +73,7 @@ export default function Home() {
         <div className="bg-sky-900 text-white py-8 sm:py-12 px-2 sm:px-4">
           <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
-              <h2 className="text-yellow-400 text-2xl sm:text-3xl font-bold mb-6">
+              <h2 className="text-yellow-500 text-2xl sm:text-3xl font-bold mb-6">
                 Yang sering ditanyakan
               </h2>
               <ol className="space-y-4 list-decimal list-outside pl-6">
@@ -84,7 +84,7 @@ export default function Home() {
                     Struktur organisasi Kementerian UMKM dapat dilihat{' '}
                     <button
                       type="button"
-                      className="underline font-semibold text-white hover:text-yellow-300 cursor-pointer bg-transparent border-none p-0"
+                      className="underline font-semibold text-white cursor-pointer bg-transparent border-none p-0"
                       aria-label="Struktur organisasi Kementerian UMKM (tidak ada tautan)"
                       disabled
                     >
@@ -109,7 +109,7 @@ export default function Home() {
                     Program strategis Kementerian UMKM dapat dilihat{' '}
                     <button
                       type="button"
-                      className="underline font-semibold text-white hover:text-yellow-300 cursor-pointer bg-transparent border-none p-0"
+                      className="underline font-semibold text-white cursor-pointer bg-transparent border-none p-0"
                       aria-label="Program strategis Kementerian UMKM (tidak ada tautan)"
                       disabled
                     >

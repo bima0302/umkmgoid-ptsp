@@ -8,7 +8,7 @@ function Footer() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-start">
           {/* Kolom 1 */}
           <div>
-            <h2 className="text-yellow-400 text-2xl sm:text-3xl font-bold mb-6">
+            <h2 className="text-yellow-500 text-2xl sm:text-3xl font-bold mb-6">
               Permohonan Informasi dan Pengaduan
             </h2>
             <ol className="space-y-4 text-base sm:text-lg">
@@ -30,13 +30,13 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <div className="text-yellow-300 font-semibold">Email Kami</div>
+                <div className="text-yellow-500 font-semibold">Email Kami</div>
                 <span>
                   Kirimkan Pertanyaanmu ke <strong>ppid@umkm.co.id</strong>.
                 </span>
               </li>
               <li>
-                <div className="text-yellow-300 font-semibold">
+                <div className="text-yellow-500 font-semibold">
                   Apa program strategis Kementerian UMKM?
                 </div>
                 <span>
@@ -45,7 +45,7 @@ function Footer() {
                 </span>
               </li>
               <li>
-                <div className="text-yellow-300 font-semibold">
+                <div className="text-yellow-500 font-semibold">
                   Whatsapp Channel
                 </div>
                 <span>
@@ -53,7 +53,7 @@ function Footer() {
                   kanal resmi Whatsapp channel kami{' '}
                   <a
                     href="https://www.whatsapp.com/channel/0029Vb5ZVaZ8aKvIhXtode1Y"
-                    className="underline font-semibold text-white hover:text-yellow-300 cursor-pointer bg-transparent border-none p-0"
+                    className="underline font-semibold text-white cursor-pointer bg-transparent border-none p-0"
                     aria-label="Whatsapp Channel Resmi Kementerian UMKM"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -69,33 +69,33 @@ function Footer() {
                     href="https://www.instagram.com/kementerianumkm/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-full bg-white/20 p-2 hover:bg-yellow-300 transition"
+                    className="rounded-full bg-yellow-500 p-2 transition"
                   >
-                    <FaInstagram className="h-5 w-5 text-gray-100 hover:text-sky-900" />
+                    <FaInstagram className="h-5 w-5 text-sky-900 hover:text-sky-900" />
                   </a>
                   <a
                     href="https://web.facebook.com/kementerianumkm?_rdc=1&_rdr"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-full bg-white/20 p-2 hover:bg-yellow-300 transition"
+                    className="rounded-full bg-yellow-500 p-2 transition"
                   >
-                    <FaFacebook className="h-5 w-5 text-gray-100 hover:text-sky-900" />
+                    <FaFacebook className="h-5 w-5 text-sky-900 hover:text-sky-900" />
                   </a>
                   <a
                     href="https://x.com/kementerianumkm"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-full bg-white/20 p-2 hover:bg-yellow-300 transition"
+                    className="rounded-full bg-yellow-500 p-2 transition"
                   >
-                    <FaXTwitter className="h-5 w-5 text-gray-100 hover:text-sky-900" />
+                    <FaXTwitter className="h-5 w-5 text-sky-900 hover:text-sky-900" />
                   </a>
                   <a
                     href="https://www.youtube.com/@KitaUMKM"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="rounded-full bg-white/20 p-2 hover:bg-yellow-300 transition"
+                    className="rounded-full bg-yellow-500 p-2 transition"
                   >
-                    <FaYoutube className="h-5 w-5 text-gray-100 hover:text-sky-900" />
+                    <FaYoutube className="h-5 w-5 text-sky-900 hover:text-sky-900" />
                   </a>
                 </div>
               </li>
