@@ -125,7 +125,7 @@ export default function DokumentasiPage() {
             loading="lazy"
           ></iframe>
         </div>
-        <div className="items-center text-center m-12">
+        <div className="items-center text-center mt-12 m-2">
           <a
             href="https://wa.me/62811380280"
             className="bg-sky-900 hover:shadow text-white px-16 py-2 rounded inline-block"
