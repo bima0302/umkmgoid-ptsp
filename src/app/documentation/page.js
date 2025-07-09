@@ -43,7 +43,7 @@ export default function DokumentasiPage() {
         <div className="w-full max-w-6xl mx-auto grid grid-cols-1 gap-3 sm:gap-4 md:grid-cols-3 md:gap-8 items-center px-2">
           <a
             href="https://umkm.go.id/siaran-pers"
-            className="bg-sky-900 hover:bg-sky-700 text-white py-3 px-4 w-full text-center rounded inline-block transition-all duration-200 text-base sm:text-lg font-semibold shadow"
+            className="bg-sky-900 hover:shadow text-white py-2 px-4 w-full text-center rounded inline-block transition-all duration-200 text-base sm:text-lg shadow"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -51,7 +51,7 @@ export default function DokumentasiPage() {
           </a>
           <a
             href="https://umkm.go.id/warta-umkm"
-            className="bg-sky-900 hover:bg-sky-700 text-white py-3 px-4 w-full text-center rounded inline-block transition-all duration-200 text-base sm:text-lg font-semibold shadow"
+            className="bg-sky-900 hover:shadow text-white py-2 px-4 w-full text-center rounded inline-block transition-all duration-200 text-base sm:text-lg shadow"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -59,7 +59,7 @@ export default function DokumentasiPage() {
           </a>
           <a
             href="https://umkm.go.id/"
-            className="bg-sky-900 hover:bg-sky-700 text-white py-3 px-4 w-full text-center rounded inline-block transition-all duration-200 text-base sm:text-lg font-semibold shadow"
+            className="bg-sky-900 hover:shadow text-white py-2 px-4 w-full text-center rounded inline-block transition-all duration-200 text-base sm:text-lg shadow"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -128,7 +128,7 @@ export default function DokumentasiPage() {
         <div className="items-center text-center m-12">
           <a
             href="https://wa.me/62811380280"
-            className="bg-sky-900 hover:bg-sky-800 text-white py-2 px-8 rounded inline-block"
+            className="bg-sky-900 hover:shadow text-white px-16 py-2 rounded inline-block"
             target="_blank"
             rel="noopener noreferrer"
           >
