@@ -70,7 +70,7 @@ export default function DokumentasiPage() {
       <div className="bg-white w-full flex items-center justify-center text-white py-8 px-2">
         <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 items-center px-2">
           <div>
-            <div className="relative w-full aspect-[3/4] rounded shadow-lg overflow-hidden">
+            <div className="relative w-full aspect-[3/4] rounded shadow-lg overflow-hidden border border-gray-200">
               <iframe
                 src="https://www.instagram.com/p/DFbzn4Fv-Z1/embed"
                 className="w-full h-full rounded"
@@ -81,7 +81,7 @@ export default function DokumentasiPage() {
             </div>
           </div>
           <div>
-            <div className="relative w-full aspect-[3/4] rounded shadow-lg overflow-hidden">
+            <div className="relative w-full aspect-[3/4] rounded shadow-lg overflow-hidden border border-gray-200">
               <iframe
                 src="https://www.instagram.com/p/DLWu5xmyBG9/embed"
                 className="w-full h-full rounded"
@@ -92,7 +92,7 @@ export default function DokumentasiPage() {
             </div>
           </div>
           <div>
-            <div className="relative w-full aspect-[3/4] rounded shadow-lg overflow-hidden">
+            <div className="relative w-full aspect-[3/4] rounded shadow-lg overflow-hidden border border-gray-200">
               <iframe
                 src="https://www.instagram.com/p/DKvnZKCJaIz/embed"
                 className="w-full h-full rounded"
@@ -116,7 +116,7 @@ export default function DokumentasiPage() {
         </span>
       </div>
       <div className="w-full max-w-6xl mx-auto my-12 px-2">
-        <div className="px-2">
+        <div className="px-2 md:px-0">
           <div className="relative w-full aspect-video rounded shadow-lg overflow-hidden border border-gray-200">
             <iframe
               src="https://umkm.go.id/"
