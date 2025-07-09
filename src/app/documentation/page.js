@@ -67,7 +67,7 @@ export default function DokumentasiPage() {
           </a>
         </div>
       </div>
-      <div className="bg-white w-full flex items-center justify-center text-white py-8">
+      <div className="bg-white w-full flex items-center justify-center text-white py-8 px-2">
         <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 items-center px-2">
           <div>
             <div className="relative w-full aspect-[3/4] rounded shadow-lg overflow-hidden">
@@ -116,15 +116,18 @@ export default function DokumentasiPage() {
         </span>
       </div>
       <div className="w-full max-w-6xl mx-auto my-12 px-2">
-        <div className="w-full aspect-video rounded shadow-lg overflow-hidden border border-gray-200">
-          <iframe
-            src="https://umkm.go.id/"
-            title="Preview Website Kementerian UMKM"
-            className="w-full h-full"
-            frameBorder="0"
-            loading="lazy"
-          ></iframe>
+        <div className="px-2">
+          <div className="relative w-full aspect-video rounded shadow-lg overflow-hidden border border-gray-200">
+            <iframe
+              src="https://umkm.go.id/"
+              title="Preview Website Kementerian UMKM"
+              className="w-full h-full"
+              frameBorder="0"
+              loading="lazy"
+            ></iframe>
+          </div>
         </div>
+
         <div className="items-center text-center mt-12 m-2">
           <a
             href="https://wa.me/62811380280"

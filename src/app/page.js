@@ -120,7 +120,7 @@ export default function Home() {
               </ol>
             </div>
 
-            <div className="flex flex-col items-center md:items-start space-y-4 mt-8 md:mt-0">
+            <div className="flex flex-col items-center md:items-start space-y-4 mt-8 md:mt-0 mx-2">
               <Image
                 src="/menteri.jpg"
                 alt="Menteri UMKM"
@@ -145,7 +145,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-8 md:mt-0 flex flex-col items-center md:items-start text-center md:text-left">
+            <div className="mt-8 md:mt-0 mx-2 flex flex-col items-center md:items-start text-left">
               <h2 className="flex flex-col text-sky-900 text-2xl sm:text-3xl font-bold mb-6">
                 Untuk bantuan lebih cepat, silakan masuk ke akun Lapor Anda.
               </h2>
@@ -158,7 +158,7 @@ export default function Home() {
               </ol>
               <a
                 href="https://wa.me/62811380280"
-                className="bg-sky-900 hover:bg-sky-800 text-white py-2 px-8 rounded inline-block mt-6 text-base sm:text-lg"
+                className="bg-sky-900 hover:bg-sky-800 text-white text-center w-full sm:w-fit px-16 py-2 rounded inline-block mt-6 text-base sm:text-lg"
                 target="_blank"
                 rel="noopener noreferrer"
               >
