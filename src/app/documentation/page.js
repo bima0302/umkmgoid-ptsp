@@ -12,7 +12,7 @@ export default function DokumentasiPage() {
         </p>
       </div>
       <div className="bg-white text-sky-900 py-12 px-4">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center md:px-2">
           <div className="flex flex-col items-center md:items-end space-y-4">
             <div className="relative w-full aspect-video rounded shadow-lg overflow-hidden max-w-xl">
               <iframe
