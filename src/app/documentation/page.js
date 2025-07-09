@@ -128,7 +128,7 @@ export default function DokumentasiPage() {
         <div className="items-center text-center mt-12 m-2">
           <a
             href="https://wa.me/62811380280"
-            className="bg-sky-900 hover:shadow text-white w-full md:px-16 py-2 rounded inline-block"
+            className="bg-sky-900 hover:shadow text-white w-full sm:w-fit px-16 py-2 rounded inline-block"
             target="_blank"
             rel="noopener noreferrer"
           >

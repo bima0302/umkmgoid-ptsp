@@ -103,7 +103,7 @@ function Footer() {
           </div>
 
           {/* Kolom 2 */}
-          <div className="flex flex-col items-center md:items-start space-y-4 mt-8 md:mt-0">
+          <div className="flex flex-col items-start space-y-4 mt-8 md:mt-0">
             <h2 className="text-white text-2xl sm:text-3xl font-bold">
               Pelayanan Terpadu Satu Pintu
             </h2>
