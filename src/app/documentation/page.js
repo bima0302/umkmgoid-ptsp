@@ -39,7 +39,7 @@ export default function DokumentasiPage() {
           </div>
         </div>
       </div>
-      <div className="bg-cyan-700 min-h-32 w-full flex items-center justify-center text-white px-0 sm:px-2 py-6 sm:py-0">
+      <div className="bg-cyan-700 min-h-32 w-full flex items-center justify-center text-white px-2 py-6">
         <div className="w-full max-w-6xl mx-auto grid grid-cols-1 gap-3 sm:gap-4 md:grid-cols-3 md:gap-8 items-center px-2">
           <a
             href="https://umkm.go.id/siaran-pers"
@@ -128,7 +128,7 @@ export default function DokumentasiPage() {
         <div className="items-center text-center mt-12 m-2">
           <a
             href="https://wa.me/62811380280"
-            className="bg-sky-900 hover:shadow text-white px-16 py-2 rounded inline-block"
+            className="bg-sky-900 hover:shadow text-white w-full md:px-16 py-2 rounded inline-block"
             target="_blank"
             rel="noopener noreferrer"
           >
