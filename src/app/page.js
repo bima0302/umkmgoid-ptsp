@@ -20,7 +20,7 @@ const cards = [
   {
     title: 'Pojok Baca',
     image: '/pojok-baca.png',
-    link: 'https://pojokbaca.kemenkopukm.go.id/',
+    link: 'https://umkm.go.id/ebook',
   },
   {
     title: 'Survei Kepuasan Masyarakat',
